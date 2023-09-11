@@ -128,6 +128,10 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <div className="bottomdiv">
+                    <input style={{ padding: "10px 20px 10px 10px", width: "60%", borderRadius: "5px", border: "1px solid #ABABAB" }} type="email" placeholder={errorMessage || successMessage || "Email Address"} value={email} onChange={(e) => setEmail(e.target.value)} />
+                    <button style={{ marginLeft: "15px",marginTop:"20px",marginBottom:"20px",backgroundColor: "#EA7B2C", border: "1px solid #EA7B2C", borderRadius: "8px", color: "white", padding: "10px" }} onClick={handleSubmit}>Contact Me</button>
+                </div>
 
         </div>
 
