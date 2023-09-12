@@ -1,1 +1,1 @@
-The deployed link is : https://assignment-ez.vercel.app/
+My portfolio : https://NafisAamir.github.io
